@@ -181,7 +181,7 @@ public class PatikaStore {
             System.out.format("| %-3d | %-20s | %-10.1f | %-10.1f | %-10d | %-10s | %-10s | %-10.1f | %-10d | %-10d |%n",
                     cellPhone.getId(), cellPhone.getName(), cellPhone.getPrice(), cellPhone.getDiscount(), cellPhone.getStock(),
                     cellPhone.getBrand().getName(), cellPhone.getColor(), cellPhone.getScreenSize(), cellPhone.getRam(), cellPhone.getBatteryCapacity());
-            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
+                    System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
         }
     }
 }
